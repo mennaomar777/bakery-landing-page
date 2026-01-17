@@ -1,0 +1,612 @@
+body,
+ul {
+  margin: 0;
+}
+.home-content,
+.nav-bar,
+.nav-bar .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.btns .learn,
+.nav-bar .links ul li {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.home-content,
+section.home {
+  height: 100vh;
+  position: relative;
+}
+.content p.contentP,
+.content p.welcome {
+  font-family: "Alegreya Sans", sans-serif;
+}
+.btns .contact,
+.btns .learn {
+  color: #fff;
+  padding-inline: 27px;
+  padding-block: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.baking-sec .baking-header,
+.content,
+.gallery-content {
+  text-align: center;
+}
+.part-4,
+section.home {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 70px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 90%;
+  margin-inline: auto;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.nav-bar {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-block: 10px;
+}
+.logo {
+  width: 15%;
+}
+.contact-item img,
+.details-icon img,
+.details-item div img,
+.gallery-img,
+.gallery-img img,
+.home-content,
+.icon-img img,
+.last div a img,
+.logo img {
+  width: 100%;
+}
+.nav-bar .links ul {
+  display: flex;
+  gap: 25px;
+}
+.nav-bar .links ul li {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.502);
+  transition: 0.5s;
+}
+.nav-bar .links ul li:hover {
+  color: #000;
+}
+section.home {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+}
+section.home::after {
+  content: " ";
+  background-color: rgba(0, 0, 0, 0.148);
+  position: absolute;
+  inset: 0;
+}
+.home-content {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 10;
+}
+.about,
+.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.content {
+  color: #fff;
+  max-width: 57%;
+}
+.content p.welcome {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.content h1 {
+  font-size: 76px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  font-family: Alegreya, serif;
+  font-weight: 400;
+}
+.content p.contentP {
+  font-size: 24px;
+}
+.btns {
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.btns .learn {
+  background-color: #8e7745;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.btns .contact {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.btns .contact:hover,
+.btns .learn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.bakery-name::after {
+  content: "";
+  -webkit-animation: 4s linear infinite typing;
+  animation: 4s linear infinite typing;
+}
+@-webkit-keyframes typing {
+  0%,
+  100% {
+    content: "|";
+  }
+  4%,
+  98% {
+    content: "F|";
+  }
+  8%,
+  96% {
+    content: "Fa|";
+  }
+  12%,
+  92% {
+    content: "Fam|";
+  }
+  16%,
+  88% {
+    content: "Fami|";
+  }
+  20%,
+  84% {
+    content: "Famil|";
+  }
+  24%,
+  80% {
+    content: "Family|";
+  }
+  28%,
+  76% {
+    content: "Family |";
+  }
+  32%,
+  72% {
+    content: "Family B|";
+  }
+  36%,
+  68% {
+    content: "Family Ba|";
+  }
+  40%,
+  64% {
+    content: "Family Bak|";
+  }
+  44%,
+  60% {
+    content: "Family Bake|";
+  }
+  48%,
+  56% {
+    content: "Family Baker|";
+  }
+  52% {
+    content: "Family Bakery|";
+  }
+}
+@keyframes typing {
+  0%,
+  100% {
+    content: "|";
+  }
+  4%,
+  98% {
+    content: "F|";
+  }
+  8%,
+  96% {
+    content: "Fa|";
+  }
+  12%,
+  92% {
+    content: "Fam|";
+  }
+  16%,
+  88% {
+    content: "Fami|";
+  }
+  20%,
+  84% {
+    content: "Famil|";
+  }
+  24%,
+  80% {
+    content: "Family|";
+  }
+  28%,
+  76% {
+    content: "Family |";
+  }
+  32%,
+  72% {
+    content: "Family B|";
+  }
+  36%,
+  68% {
+    content: "Family Ba|";
+  }
+  40%,
+  64% {
+    content: "Family Bak|";
+  }
+  44%,
+  60% {
+    content: "Family Bake|";
+  }
+  48%,
+  56% {
+    content: "Family Baker|";
+  }
+  52% {
+    content: "Family Bakery|";
+  }
+}
+.animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.home-animation {
+  width: 35px;
+  height: 55px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.795);
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.about,
+.offer {
+  -webkit-box-pack: justify;
+}
+.home-ball {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  animation: 1.5s linear 1s infinite translating;
+  opacity: 0;
+}
+@keyframes translating {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(6px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
+.about-sec,
+.baking-sec,
+.contact-sec,
+.details-sec,
+.offer-sec {
+  padding-block: 70px;
+}
+.about {
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 70px;
+}
+.icon-img,
+.icons-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.about-content,
+.about-photo,
+.contact-content,
+.contact-map,
+.offer-content,
+.offer-img {
+  width: 50%;
+}
+.about-photo img,
+.contact-map iframe,
+.offer-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.about-content h2,
+.baking-sec .baking-header h2,
+.contact-content h2,
+.offer h2 {
+  font-family: Alegreya, serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+.about-content p.paragraph,
+.baking-sec .baking-header p,
+.contact-content p,
+.contact-content span,
+.gallery-content,
+.offer p.paragraph {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 17px;
+  color: #686868;
+  line-height: 30px;
+}
+.details-lists h4,
+.gallery-content h3 {
+  font-weight: 400;
+  font-family: Alegreya, serif;
+}
+.icon-img {
+  width: 8%;
+  border: 1px solid #6868685b;
+  border-radius: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2px;
+}
+.gallery-img img,
+.gallery-item {
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.icons-div {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.gallery,
+.offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.icons-div p {
+  color: #686868;
+  font-size: 17px;
+}
+.contact-sec,
+.offer-sec {
+  background-color: #f8f8f8;
+}
+.offer {
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 50px;
+}
+.gallery {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+.contact,
+.contact-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.gallery-item {
+  overflow: hidden;
+}
+.gallery-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+.gallery-content h3 {
+  color: #000;
+}
+.contact {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+}
+.contact-item {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.contact-icon,
+.details-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.contact-icon {
+  width: 6%;
+  background-color: #8e7754;
+  border-radius: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1px;
+}
+.details-p {
+  padding-bottom: 20px;
+}
+.details-sec {
+  background-color: #403d38;
+  padding-block: 30px;
+}
+.details-lists {
+  display: flex;
+  gap: 20px;
+}
+.details-item,
+.last div.links,
+footer .last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.details-lists h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.details-lists div p.about-us-p {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #969696b1;
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.details-item {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1px;
+  color: #969696ab;
+  font-family: "Alegreya Sans", sans-serif;
+  border-bottom: 1px solid #6868684e;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.part-1,
+.part-2,
+.part-3,
+.part-4 {
+  width: 25%;
+}
+.details-item div {
+  width: 10%;
+  padding: 3px;
+}
+.details-item span {
+  font-size: 14px;
+}
+.details-item span a:hover {
+  color: rgba(255, 255, 255, 0.699);
+}
+.details-item span a {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.part-4 {
+  background-image: url(../images/contact-details-map.png);
+}
+.details-icon {
+  width: 200%;
+}
+footer .last {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #353330;
+  padding-block: 20px;
+}
+.last p {
+  color: #686868;
+}
+.last div.links {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 15%;
+  gap: 10px;
+  margin-block: 5px;
+}
+.last div a img {
+  background-color: #403d38;
+  border-radius: 100%;
+}
+.last div a img:hover {
+  background-color: #403d389a;
+}

@@ -1,0 +1,108 @@
+@media (max-width: 768px) {
+  .nav-bar,
+  .nav-bar .links ul {
+    flex-direction: column;
+    padding-block: 20px;
+  }
+  .container {
+    max-width: 95%;
+  }
+  .nav-bar {
+    align-items: flex-start;
+  }
+  .logo {
+    width: 25%;
+  }
+  .nav-bar .links {
+    width: 100%;
+  }
+  .nav-bar .links ul li {
+    font-size: 16px;
+    border-bottom: 1px solid #6868681d;
+  }
+  .content {
+    max-width: 80%;
+  }
+  .content p.welcome {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .content h1 {
+    font-size: 34px;
+  }
+  .content p.contentP,
+  .details-item span,
+  .details-lists div p.about-us-p {
+    font-size: 16px;
+  }
+  .btns .contact,
+  .btns .learn {
+    padding-inline: 15px;
+    padding-block: 12px;
+    font-size: 14px;
+  }
+  .about,
+  .contact,
+  .gallery,
+  .offer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-content,
+  .about-photo,
+  .contact-content,
+  .contact-map,
+  .gallery-img,
+  .offer-content,
+  .offer-img,
+  .part-1,
+  .part-2,
+  .part-3,
+  .part-4 {
+    width: 80%;
+  }
+  .about-content h2,
+  .baking-sec .baking-header h2,
+  .contact-content h2,
+  .offer h2 {
+    font-family: Alegreya, serif;
+    font-weight: 300;
+    font-size: 25px;
+  }
+  .icon-img {
+    width: 13%;
+  }
+  .icons-div {
+    margin-bottom: 2px;
+  }
+  .gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery-content {
+    text-align: center;
+    width: 80%;
+  }
+  .contact-icon {
+    width: 10%;
+  }
+  .contact-item {
+    margin-bottom: 15px;
+  }
+  .details-lists {
+    flex-direction: column;
+    align-items: center;
+  }
+  .details-item div {
+    width: 5%;
+  }
+  .last p {
+    color: #686868;
+    padding-block: 10px;
+  }
+  .last div.links {
+    width: 22%;
+  }
+}
