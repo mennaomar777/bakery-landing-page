@@ -69,7 +69,15 @@ nav {
 .nav-bar .links ul li:hover {
   color: black;
 }
-
+/* target */
+body:has(#home:target) nav a[href="#home"],
+body:has(#about:target) nav a[href="#about"],
+body:has(#offer:target) nav a[href="#offer"],
+body:has(#baking:target) nav a[href="#baking"],
+body:has(#contact:target) nav a[href="#contact"],
+body:not(:has(:target)) nav a[href="#home"] {
+  color: black;
+}
 /* home section */
 
 section.home {
